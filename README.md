@@ -12,28 +12,42 @@ You can run this code directly using a predefined apikey, merchantid and certifi
 git clone https://github.com/cardtokens/demo-cardtokens-csharp.git
 ```
 
-### navigate to folder locally
+### Navigate to folder locally
+```bash
 cd demo-cardtokens-csharp
+```
 
 ### Install .net
 #### Start with update
+```bash
 sudo apt-get update
 sudo apt-get upgrade
+```
 
 #### Install dependencies
+```bash
 sudo apt-get install apt-transport-https dirmngr
+```
 
 #### Add microsoft repo
+```bash
 wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
 sudo dpkg -i packages-microsoft-prod.deb
+```
 
 #### Install .NET SDK/Runtime 7x
+```bash
 sudo apt-get install -y dotnet-sdk-7.0
+```
 
 ### Build and run the app
 #### Build
+```bash
 dotnet build
+```
 
 #### Run the program
+```bash
 dotnet run
+```
 
