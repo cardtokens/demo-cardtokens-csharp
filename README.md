@@ -16,7 +16,7 @@ git clone https://github.com/cardtokens/demo-cardtokens-csharp.git
 cd demo-cardtokens-csharp
 
 ### Install .net
-#### start with update
+#### Start with update
 sudo apt-get update
 sudo apt-get upgrade
 
@@ -31,7 +31,7 @@ sudo dpkg -i packages-microsoft-prod.deb
 sudo apt-get install -y dotnet-sdk-7.0
 
 ### Build and run the app
-#### build
+#### Build
 dotnet build
 
 #### Run the program
