@@ -8,8 +8,9 @@ You can run this code directly using a predefined apikey, merchantid and certifi
 ## Steps to use this example code on Ubuntu
 
 ### Clone repo
+```bash
 git clone https://github.com/cardtokens/demo-cardtokens-csharp.git
-
+```
 
 ### navigate to folder locally
 cd demo-cardtokens-csharp
